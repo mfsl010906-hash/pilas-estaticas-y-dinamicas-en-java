@@ -26,25 +26,25 @@
 ### Desde la Terminal/Consola
 
 1. Clonar el repositorio y acceder a la carpeta del proyecto:
-   bash
-   git clone <URL_DE_TU_REPOSITTORIO>
-   cd <NOMBRE_DE_LA_CARPETA>
-   
+   ´´´bash
+   git clone <https://github.com/mfsl010906-hash/pilas-estaticas-y-dinamicas-en-java.git>
+   cd <pilas_estaticas_y_dinamicas_en_java>
+   ´´´
 
 2. Compilar los archivos fuente:
-   bash
+   ´´´bash
    javac *.java
-   
+   ´´´
 
 3. Ejecutar las clases de prueba:
-   - Para probar la *Pila Estática*:
-     bash
+   - Para probar la **Pila Estática:**
+     ´´´bash
      java LanzadorPilaSimple
-     
-   - Para probar la *Pila Dinámica*:
-     bash
+     ´´´
+   - Para probar la **Pila Dinámica:**
+     ´´´bash
      java Main
-     
+     ´´´
 
 ---
 
@@ -52,33 +52,41 @@
 
 ### Prueba 1: Pila Estática (LanzadorPilaSimple)
 
-text
-¿Está vacía la pila estática?: true
+´´´text
+¿esta vacia la pila estatica?: true
 Metiste: 10
 Metiste: 20
 Metiste: 30
-Pila actual: 10 20 30 
-Elemento en el tope (peek): 30
-¿Está llena la pila estática?: false
-Sacaste: 30
-Pila actual: 10 20 
-Nuevo elemento en el tope (peek): 20
+pila actual: 
+10 20 30 
+elemento en el tope (peek): 30
+¿esta llena la pila estatica?: false
+sacaste: 30
+pila actual: 
+10 20 
+nuevo elemento en el tope (peek): 20
 
+Process finished with exit code 0
+´´´
 
 ### Prueba 2: Pila Dinámica (Main)
 
-text
-¿Está vacía la pila dinámica?: true
+´´´text
 
+¿esta vacia la pila dinamica?: true
 *** INSERTANDO ELEMENTOS (PUSH) ***
-Metiste a la pila dinámica: 10
-Metiste a la pila dinámica: 20
-Metiste a la pila dinámica: 30
-Pila dinámica (cima -> fondo): 30 20 10 
-Elemento en la cima (peek): 30
+metiste a la pila dinamica: 10
+metiste a la pila dinamica: 20
+metiste a la pila dinamica: 30
+pila dinamica (cima -> fondo): 
+30 20 10 
+elemento en la sima (pekk): 30
 
 *** SACANDO UN ELEMENTO (POP) ***
-Sacaste de la pila dinámica: 30
-Pila dinámica (cima -> fondo): 20 10 
-Nuevo elemento en la cima (peek): 20
+sacaste de la pila: 30
+pila dinamica (cima -> fondo): 
+20 10 
+nuevo elemnto en la cima (peek): 20
 
+Process finished with exit code 0
+´´´
